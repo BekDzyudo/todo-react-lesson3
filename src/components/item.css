@@ -1,0 +1,26 @@
+.item {
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.checkText {
+  display: flex;
+  column-gap: 10px;
+}
+.btnShow {
+  display: flex;
+  column-gap: 20px;
+}
+.editBtn {
+  border: none;
+  border-radius: 3px;
+  background-color: yellowgreen;
+}
+.deleteBtn {
+  border: none;
+  border-radius: 3px;
+  background-color: red;
+}
